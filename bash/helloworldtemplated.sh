@@ -1,2 +1,4 @@
-echo 'Hello World!'
-echo "I am process#$$"
+cat <<EOF
+Hello World!
+I am process # $$
+EOF
